@@ -1,0 +1,117 @@
+.form {
+    width: 350px;
+    height: 360px;
+    background-color: rgb(242, 243, 243);
+    margin-left: 35%;
+    margin-top: 7%;
+    border-radius: 10px;
+    border-color: rgb(199, 199, 199);
+    color: orangered;
+}
+
+.header_form{
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 1px;
+    font-family: Didot;
+    color: orangered;
+}
+
+.form_container {
+    padding-left: 5px;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.form_input {
+    padding-bottom: 8px;
+    align-items: center;
+}
+
+.form_input_username {
+    width: 325px;
+    height: 30px;
+    padding-left: 10px;
+}
+
+.form_input_password {
+    width: 325px;
+    height: 30px;
+    padding-left: 10px;
+}
+
+.form_input_password_confirm {
+    width: 325px;
+    height: 30px;
+    padding-left: 10px;
+}
+
+.help-link {
+    text-decoration: none;
+    padding-left: 225px;
+    margin-bottom: 40px;
+}
+
+.form_controls {
+    padding-top: 25px;
+    padding-left: 205px;
+}
+
+.form_socials {
+    padding-top: 30px;
+}
+
+.form_socials {
+    margin-top: 15px;
+    padding: 10px 10px;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-back {
+    text-decoration: none;
+    padding-right: 10px;
+    color: black;
+}
+
+.btn-back:hover{
+    cursor: pointer;
+    color: orangered;
+}
+
+.btn.btn_with-icon {
+    height: 25px;
+    text-decoration: none;
+    font-size: 0.95rem;
+    border-radius: 5px;
+}
+
+.btn-login:hover {
+    background-color: orangered;
+    color: #f5f5f5;
+}
+
+.auth-form_socials-texticon-fb {
+    margin: 0 5px;
+}
+
+.auth-form_socials-texticon-gg {
+    margin: 0 5px;
+}
+
+.auth-form_socials-fb {
+    color: white;
+    background-color: #4c71bb;
+}
+
+.auth-form_socials-gg {
+    color: black;
+    background-color: yellowgreen;
+}
+
+.fa-brands {
+    padding-top: 12px;
+    padding-left: 5px;
+}

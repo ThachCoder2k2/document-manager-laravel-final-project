@@ -1,0 +1,229 @@
+
+.headeradmin {
+    height: 60px;
+    background-image: linear-gradient(0, #f4663b, #f57c6f);
+    border-radius: 3px;
+    width: 100%;
+}
+
+.navbar-admin-list {
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.4rem;
+    color: white;
+}
+
+.navbar-admin-list-icon {
+    margin-right: 10px;
+    padding-top: 17px;
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+
+.navbar-admin-list-search {
+    padding-top: 15px;
+    width: 650px;
+    display: flex;
+    align-items: center;
+}
+.navbar-admin-list-search-input {
+    border-radius: 10px;
+    width: 600px;
+    padding: 0 16px;
+    border-color:aliceblue;
+    margin-right: 5px;
+}
+.navbar-admin-list-search-input-filter {
+    cursor: pointer;
+}
+
+.navbar-admin-list-right {
+    display: flex;
+    padding-right: 10px;
+}
+
+.containeradmin {
+    display: inline-block;
+}
+
+.menu {
+    background-color: rgb(248, 248, 248);
+    width: 210px;
+    height: 190px;
+    border-radius: 10px;
+}
+.menu-list {
+    text-decoration: none;
+    list-style: none;
+    /* background-color: aqua; */
+    
+    padding-top: 20px;
+    padding-left:10px;
+    padding-right: 10px;
+}
+
+.menu-list-item {
+    font-size: 1.5rem;
+    border-bottom: 1px solid #fff;
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    border-color: rgb(197, 197, 197);
+    padding-left: 5px;
+    padding-top: 3px;
+    margin-bottom: 20px;
+}
+
+.menu-list-item:hover {
+    cursor: pointer;
+    background-color: rgb(216, 216, 216);
+}
+
+.member{
+    width: 1000px;
+    height: 500px;
+    margin-left: 225px;
+    margin-top: -190px;
+    border-radius: 10px;
+    background-color: rgb(249, 250, 249);
+}
+
+.option-member{
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.add_member_button{
+    color: #fff;
+    background-color: rgb(94, 197, 94);
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.2rem;
+}
+.add_member_button:hover{
+    cursor: pointer;
+    background-color: orangered;
+}
+
+.search_member_input{
+    width: 350px;
+    height: 28px;
+    background-color:rgb(248, 248, 248);
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.show-member{
+    width: 980px;
+    height: 100%;
+    margin-top: -8px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: rgb(235, 249, 249);
+}
+
+.table-member{
+    border-spacing: 15px;
+}
+.title-table-member{
+    font-size: 1.5rem;
+}
+.content-table-member{
+    border-spacing: 15px;
+}
+.content-table-member:hover{
+    cursor: pointer;
+}
+.option-fix-member{
+    color: #fff;
+    background-color: rgb(6, 176, 6);
+    border: none;
+    border-radius: 5px;
+}
+.option-fix-member:hover{
+    cursor: pointer;
+    background-color: rgb(57, 255, 57);
+}
+.option-delete-member{
+    color: #fff;
+    background-color: rgb(238, 91, 91);
+    border: none;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.option-delete-member:hover{
+    cursor: pointer;
+    background-color: red;
+}
+.content-table-member-option{
+    margin-left: 10px;
+}
+
+.group_file{
+    width: 1000px;
+    height: 500px;
+    margin-left: 225px;
+    margin-top: -190px;
+    border-radius: 10px;
+    background-color: rgb(249, 250, 249);
+}
+.table_file{
+    padding-top: 20px;
+}
+.option-group-file{
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.add_group_file_button{
+    color: #fff;
+    background-color: rgb(94, 197, 94);
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.2rem;
+}
+.add_group_file_button:hover{
+    cursor: pointer;
+    background-color: orangered;
+}
+
+.search_group_file_input{
+    width: 350px;
+    height: 28px;
+    background-color:rgb(248, 248, 248);
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Sử dụng CSS để cách đều các cột trong bảng */
+.table_file td {
+    text-align: center; /* Căn giữa nội dung trong cột */
+    padding: 10px; /* Tạo khoảng cách giữa nội dung và viền của ô (tuỳ chỉnh) */
+}
+
+/* Cách đều các cột trong bảng */
+.table_file th, .table_file td {
+    width: 25%; /* Cách đều các cột bằng cách đặt chiều rộng bằng nhau (25% cho mỗi cột) */
+}
+
+/* Áp dụng hiệu ứng hover cho hàng trong bảng */
+.table_file tr:hover {
+    background-color: #f0f0f0; /* Đổi màu nền khi hover (tuỳ chỉnh) */
+}

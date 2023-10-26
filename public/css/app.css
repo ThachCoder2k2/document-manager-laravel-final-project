@@ -1,0 +1,7 @@
+table{
+    margin-top: 20px;
+}
+.container-fluid{
+    /* display: flex; */
+    flex-direction: column;
+}
